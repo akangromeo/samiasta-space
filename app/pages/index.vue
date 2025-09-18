@@ -4,8 +4,8 @@ import Services from "~/data/services.js";
 useSeo(
   "Home",
   "Innovating Spatial Sustainability.",
-  "https://law-firm-olive.vercel.app/",
-  "https://law-firm-olive.vercel.app/images/Man-Making-His-Move.jpg"
+  "https://samiasta-space.vercel.app/",
+  "https://samiasta-space.vercel.app/images/Samiasta-Logo-Mini.png"
 );
 
 const serviceList = Services;
