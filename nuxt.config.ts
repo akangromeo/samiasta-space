@@ -11,8 +11,16 @@ export default defineNuxtConfig({
   modules: ["@nuxt/image", "flowbite/plugin", "@vueuse/motion/nuxt"],
   app: {
     head: {
-      titleTemplate: "%s - Candra Yustisia Law Office",
+      titleTemplate: "%s - Samiasta Space",
+      link: [
+        {
+          rel: "icon",
+          type: "image/png",
+          href: "/images/Samiasta-Logo-Mini.png",
+        },
+      ],
     },
+
     pageTransition: { name: "page", mode: "out-in" },
   },
   devServer: {
