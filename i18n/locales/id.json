@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "services": "Layanan",
+    "works": "Karya",
+    "about": "Tentang Kami",
+    "contact": "Kontak"
+  },
+  "jumbotron": {
+    "title": "Inovasi Keberlanjutan Spasial",
+    "subtitle": "Untuk Pemerintah, Perusahaan & Korporasi, Organisasi Lingkungan & Keberlanjutan, serta Lembaga Penelitian",
+    "ourWorks": "Karya Kami",
+    "contactUs": "Hubungi Kami"
+  }
+}

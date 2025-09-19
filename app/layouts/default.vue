@@ -3,12 +3,10 @@
     <ContactTop></ContactTop>
     <Navbar></Navbar>
     <main class="bg-custom-gradient">
-      <slot />
+      <slot :key="$route.fullPath" />
     </main>
     <Footer></Footer>
   </div>
 </template>
-
-<script setup></script>
 
 <style lang=""></style>

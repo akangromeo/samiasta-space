@@ -4,12 +4,12 @@ import { ref } from "vue";
 const isNavbarOpen = ref(false);
 
 const navItems = [
-  { name: "Home", to: "/" },
-  // { name: "Services", to: "/services" },
-  // { name: "Works", to: "/gallery" },
+  { name: "nav.home", to: "/" },
+  { name: "nav.services", to: "/services" },
+  { name: "nav.works", to: "/gallery" },
 
-  // { name: "About", to: "/about" },
-  // { name: "Contact", to: "/contact" },
+  { name: "nav.about", to: "/about" },
+  { name: "nav.contact", to: "/contact" },
 ];
 
 const toggleNavbar = () => {
@@ -72,7 +72,7 @@ const toggleNavbar = () => {
               class="block py-2 px-3 md:p-0 text-primary-brown hover:text-primary-green :text-red-400 transition-colors"
               exact-active-class="text-dark-green font-semibold text-lg"
             >
-              {{ item.name }}
+              {{ $t(item.name) }}
             </NuxtLink>
           </li>
         </ul>
@@ -86,7 +86,7 @@ const toggleNavbar = () => {
               class="text-dark-green hover:text-primary-yellow :text-red-400 transition-colors"
               exact-active-class="text-primary-yellow font-semibold"
             >
-              {{ item.name }}
+              {{ $t(item.name) }}
             </NuxtLink>
           </li>
         </ul>

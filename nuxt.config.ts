@@ -8,7 +8,12 @@ export default defineNuxtConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  modules: ["@nuxt/image", "flowbite/plugin", "@vueuse/motion/nuxt"],
+  modules: [
+    "@nuxt/image",
+    "flowbite/plugin",
+    "@vueuse/motion/nuxt",
+    "@nuxtjs/i18n",
+  ],
   app: {
     head: {
       titleTemplate: "%s - Samiasta Space",
@@ -31,5 +36,22 @@ export default defineNuxtConfig({
     emailjsServiceId: process.env.EMAILJS_SERVICE_ID,
     emailjsTemplateId: process.env.EMAILJS_TEMPLATE_ID,
     emailjsPublicKey: process.env.EMAILJS_PUBLIC_KEY,
+  },
+
+  i18n: {
+    defaultLocale: "id",
+    locales: [
+      { code: "en", name: "English", file: "en.json" },
+      { code: "id", name: "Bahasa Indonesia", file: "id.json" },
+    ],
+
+    strategy: "no_prefix",
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      redirectOn: "root",
+      alwaysRedirect: false, // biar tidak dipaksa tiap kali refresh
+      fallbackLocale: "id",
+    },
   },
 });

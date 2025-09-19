@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "works": "Works",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "jumbotron": {
+    "title": "Innovating Spatial Sustainability",
+    "subtitle": "For Government, Enterprises & Corporations, Environmental & Sustainability Organizations and Research Institutions",
+    "ourWorks": "Our Works",
+    "contactUs": "Contact Us"
+  }
+}

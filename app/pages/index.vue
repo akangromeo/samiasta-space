@@ -5,7 +5,7 @@ useSeo(
   "Home",
   "Innovating Spatial Sustainability.",
   "https://samiasta-space.vercel.app/",
-  "https://samiasta-space.vercel.app/images/Samiasta-Logo-Mini.png"
+  "https://samiasta-space.vercel.app/images/Samiasta-Logo.png"
 );
 
 const serviceList = Services;
@@ -31,8 +31,8 @@ const loremText =
         link="/services"
       ></MenuRedirect>
 
-      <ServiceGrid :services="serviceList" />
-      <TeamGrid :members="teamMembers"></TeamGrid>
+      <!-- <ServiceGrid :services="serviceList" /> -->
+      <!-- <TeamGrid :members="teamMembers"></TeamGrid> -->
     </div>
   </div>
 </template>

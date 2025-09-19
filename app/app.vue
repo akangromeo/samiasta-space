@@ -1,5 +1,7 @@
 <script setup>
 import "flowbite";
+
+import { useRoute } from "vue-router";
 </script>
 
 <template>
