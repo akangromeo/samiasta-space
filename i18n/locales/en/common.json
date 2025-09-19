@@ -11,5 +11,10 @@
     "subtitle": "For Government, Enterprises & Corporations, Environmental & Sustainability Organizations and Research Institutions",
     "ourWorks": "Our Works",
     "contactUs": "Contact Us"
+  },
+  "ourServices": {
+    "title": "Our Services",
+    "subtitle": "We provide a range of services focused on spatial solutions to support environmental and social sustainability.",
+    "seeMore": "See More"
   }
 }

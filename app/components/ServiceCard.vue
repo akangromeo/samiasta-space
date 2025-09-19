@@ -9,10 +9,10 @@ defineProps({
 
 <template>
   <div v-motion-slide-visible-bottom v-motion-slide-visible-top class="">
-    <h3 class="text-3xl font-semibold mb-2 text-primary-brown">
+    <h3 class="text-3xl font-semibold mb-2 text-dark-green">
       {{ title }}
     </h3>
-    <p class="text-secondary-brown text-justify">
+    <p class="text-gray-500 text-justify">
       {{ desc }}
     </p>
     <seeMore :link="link" :linkText="linkText"></seeMore>

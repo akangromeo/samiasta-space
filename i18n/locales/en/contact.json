@@ -1,0 +1,18 @@
+{
+  "contactSection": {
+    "askUs": "Ask Us",
+    "subtitle": "For more information, contact us or visit our office at the address below:",
+    "office": "Office",
+    "officeLocation": "Office Location"
+  },
+  "contactForm": {
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "title": "Title",
+    "titlePlaceholder": "Subject of your message",
+    "message": "Message",
+    "messagePlaceholder": "Type your message here...",
+    "submit": "Submit"
+  }
+}

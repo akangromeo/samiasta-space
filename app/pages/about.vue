@@ -7,7 +7,7 @@
       desc="Adalah firma hukum yang berkomitmen memberikan layanan hukum terbaik di bidang litigasi, non-litigasi, dan konsultasi hukum bisnis dengan integritas dan profesionalitas tinggi."
     ></HeroSection>
     <div
-      class="bg-linear-to-r from-primary-yellow via-yellow-200 to-primary-yellow"
+      class="bg-linear-to-r from-primary-white via-secondary-green to-primary-white"
     >
       <MenuRedirect
         name="Our Team"

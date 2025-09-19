@@ -14,7 +14,7 @@ useSeo(
 
 <template lang="">
   <div
-    class="bg-linear-to-r from-primary-yellow via-yellow-200 to-primary-yellow"
+    class="bg-linear-to-r from-primary-white via-secondary-green to-primary-white"
   >
     <PageHeader name="Our Team"></PageHeader>
     <HeroSection

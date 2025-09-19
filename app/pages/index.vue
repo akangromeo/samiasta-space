@@ -25,9 +25,9 @@ const loremText =
       <MenuRedirect
         v-motion-slide-visible-bottom
         v-motion-slide-visible-top
-        name="Layanan Tersedia"
-        desc="Jelajahi layanan hukum yang kami sediakan untuk membantu Anda menyelesaikan berbagai permasalahan hukum dengan solusi yang tepat dan terpercaya."
-        linkText="Lihat Lengkap"
+        :name="$t('ourServices.title')"
+        :desc="$t('ourServices.subtitle')"
+        :linkText="$t('ourServices.seeMore')"
         link="/services"
       ></MenuRedirect>
 

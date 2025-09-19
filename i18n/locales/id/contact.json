@@ -1,0 +1,19 @@
+{
+  "contactSection": {
+    "askUs": "Tanya kami",
+    "subtitle": "Untuk informasi lebih lengkap, hubungi kami atau kunjungi kantor kami pada alamat dibawah ini:",
+    "office": "Kantor",
+    "officeLocation": "Lokasi Kantor"
+  },
+  "contactForm": {
+    "fullName": "Nama Lengkap",
+    "email": "Email",
+
+    "phone": "Telepon",
+    "subject": "Judul",
+    "titlePlaceholder": "Subjek pesan Anda",
+    "message": "Pesan",
+    "messagePlaceholder": "Ketik pesan Anda disini...",
+    "submit": "Kirim"
+  }
+}

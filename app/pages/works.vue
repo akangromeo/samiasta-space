@@ -49,18 +49,20 @@ const docsData = [
 </script>
 
 <template lang="">
-  <div
-    class="bg-linear-to-r from-primary-yellow via-yellow-200 to-primary-yellow"
-  >
-    <PageHeader name="Gallery"></PageHeader>
-    <HeroSection
-      image="/images/logo-circle.png"
-      title="Dokumentasi Kegiatan"
-      desc="Menangkap setiap momen penting dalam proses hukum dan kegiatan firma kami sebagai wujud transparansi dan dedikasi kepada klien."
-    ></HeroSection>
-  </div>
+  <div>
+    <div
+      class="bg-linear-to-r from-primary-white via-secondary-green to-primary-white"
+    >
+      <PageHeader :name="$t('nav.works')" />
+      <!-- <HeroSection
+        image="/images/logo-circle.png"
+        title="Dokumentasi Kegiatan"
+        desc="Menangkap setiap momen penting dalam proses hukum dan kegiatan firma kami sebagai wujud transparansi dan dedikasi kepada klien."
+      ></HeroSection> -->
+    </div>
 
-  <DocsRow :docsData="docsData" />
+    <!-- <DocsRow :docsData="docsData" /> -->
+  </div>
 </template>
 
 <style lang=""></style>

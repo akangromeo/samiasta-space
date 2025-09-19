@@ -6,7 +6,7 @@ const isNavbarOpen = ref(false);
 const navItems = [
   { name: "nav.home", to: "/" },
   { name: "nav.services", to: "/services" },
-  { name: "nav.works", to: "/gallery" },
+  { name: "nav.works", to: "/works" },
 
   { name: "nav.about", to: "/about" },
   { name: "nav.contact", to: "/contact" },
@@ -70,7 +70,7 @@ const toggleNavbar = () => {
             <NuxtLink
               :to="item.to"
               class="block py-2 px-3 md:p-0 text-primary-brown hover:text-primary-green :text-red-400 transition-colors"
-              exact-active-class="text-dark-green font-semibold text-lg"
+              exact-active-class="text-secondary-green font-semibold text-lg"
             >
               {{ $t(item.name) }}
             </NuxtLink>
@@ -84,7 +84,7 @@ const toggleNavbar = () => {
             <NuxtLink
               :to="item.to"
               class="text-dark-green hover:text-primary-yellow :text-red-400 transition-colors"
-              exact-active-class="text-primary-yellow font-semibold"
+              exact-active-class="text-secondary-green font-semibold"
             >
               {{ $t(item.name) }}
             </NuxtLink>

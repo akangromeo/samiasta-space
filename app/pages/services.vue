@@ -15,18 +15,18 @@ useSeo(
 
 <template lang="">
   <div>
-    <PageHeader name="Layanan"></PageHeader>
+    <PageHeader :name="$t('nav.services')" />
     <HeroSection
       image="/images/logo-circle.png"
       title="Layanan Hukum"
       desc="Kami dirancang untuk memberikan solusi efektif bagi individu, perusahaan, dan organisasi, dengan fokus pada profesionalitas dan integritas."
     ></HeroSection>
     <div
-      class="justify-center-safe p-20 bg-linear-to-r from-primary-yellow via-yellow-200 to-primary-yellow"
+      class="justify-center-safe p-20 bg-linear-to-r from-primary-white via-secondary-green to-primary-white"
     >
       <MenuRedirect
-        name="Layanan Tersedia"
-        desc="Jelajahi layanan hukum yang kami sediakan untuk membantu Anda menyelesaikan berbagai permasalahan hukum dengan solusi yang tepat dan terpercaya."
+        :name="$t('ourServices.title')"
+        :desc="$t('ourServices.subtitle')"
       ></MenuRedirect>
 
       <ServiceGrid :services="serviceList" />

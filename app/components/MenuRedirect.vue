@@ -12,15 +12,14 @@ defineProps({
     <div class="flex flex-col lg:flex-row items-start lg:items-center gap-6">
       <div class="flex-1">
         <p
-          class="text-4xl sm:text-3xl lg:text-4xl font-semibold mb-3 text-primary-brown"
+          class="text-4xl sm:text-3xl lg:text-4xl font-semibold mb-3 text-dark-green"
         >
           {{ name }}
         </p>
-        <p class="text-secondary-brown leading-relaxed">
+        <p class="text-gray-500 leading-relaxed">
           {{ desc }}
         </p>
       </div>
-
       <div class="lg:w-auto lg:ml-auto" v-if="link">
         <SeeMore :linkText="linkText" :link="link" />
       </div>

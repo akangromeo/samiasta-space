@@ -1,7 +1,7 @@
 <script setup>
 import "flowbite";
 
-import { useRoute } from "vue-router";
+const route = useRoute();
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import { useRoute } from "vue-router";
   </div>
 </template>
 
-<style lang="css">
+<style>
 .page-enter-active,
 .page-leave-active {
   transition: all 0.4s;

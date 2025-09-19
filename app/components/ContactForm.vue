@@ -51,14 +51,14 @@ const handleSubmit = async () => {
       <div class="mb-6">
         <label
           for="name"
-          class="block mb-2 text-sm font-medium text-primary-brown"
-          >Nama Lengkap</label
+          class="block mb-2 text-sm font-medium text-dark-green"
+          >{{ $t("contactForm.fullName") }}</label
         >
         <input
           v-model="form.name"
           type="text"
           id="name"
-          class="bg-gray-50 border border-gray-300 text-primary-brown text-sm rounded-lg focus:ring-primary-brown focus:border-primary-brown block w-full p-2.5"
+          class="bg-gray-50 border border-gray-300 text-dark-green text-sm rounded-lg focus:ring-primary-brown focus:border-primary-brown block w-full p-2.5"
           placeholder="John Doe"
           required
         />
@@ -67,14 +67,14 @@ const handleSubmit = async () => {
         <div>
           <label
             for="email"
-            class="block mb-2 text-sm font-medium text-primary-brown"
+            class="block mb-2 text-sm font-medium text-dark-green"
             >Email</label
           >
           <input
             v-model="form.email"
             type="text"
             id="email"
-            class="bg-gray-50 border border-gray-300 text-primary-brown text-sm rounded-lg focus:ring-primary-brown focus:border-primary-brown block w-full p-2.5"
+            class="bg-gray-50 border border-gray-300 text-dark-green text-sm rounded-lg focus:ring-primary-brown focus:border-primary-brown block w-full p-2.5"
             placeholder="email@example.com"
             required
           />
@@ -82,14 +82,14 @@ const handleSubmit = async () => {
         <div>
           <label
             for="phoneNumber"
-            class="block mb-2 text-sm font-medium text-primary-brown"
-            >Nomor Telepon</label
+            class="block mb-2 text-sm font-medium text-dark-green"
+            >{{ $t("contactForm.phone") }}</label
           >
           <input
             v-model="form.phoneNumber"
             type="tel"
             id="phoneNumber"
-            class="bg-gray-50 border border-gray-300 text-primary-brown text-sm rounded-lg focus:ring-primary-brown focus:border-primary-brown block w-full p-2.5"
+            class="bg-gray-50 border border-gray-300 text-dark-green text-sm rounded-lg focus:ring-primary-brown focus:border-primary-brown block w-full p-2.5"
             placeholder="08123456789"
             pattern="(08[1-9][0-9]{2}-[0-9]{4}-[0-9]{4}"
             required
@@ -99,14 +99,14 @@ const handleSubmit = async () => {
       <div class="mb-6">
         <label
           for="subject"
-          class="block mb-2 text-sm font-medium text-primary-brown"
-          >Judul</label
+          class="block mb-2 text-sm font-medium text-dark-green"
+          >{{ $t("contactForm.subject") }}</label
         >
         <input
           v-model="form.subject"
           type="text"
           id="subject"
-          class="bg-gray-50 border border-gray-300 text-primary-brown text-sm rounded-lg focus:ring-primary-brown focus:border-primary-brown block w-full p-2.5"
+          class="bg-gray-50 border border-gray-300 text-dark-green text-sm rounded-lg focus:ring-primary-brown focus:border-primary-brown block w-full p-2.5"
           placeholder="Contoh : Litigasi Perdata"
           required
         />
@@ -114,14 +114,14 @@ const handleSubmit = async () => {
       <div class="mb-6">
         <label
           for="message"
-          class="block mb-2 text-sm font-medium text-primary-brown"
-          >Pesan</label
+          class="block mb-2 text-sm font-medium text-dark-green"
+          >{{ $t("contactForm.message") }}</label
         >
         <textarea
           v-model="form.message"
           id="message"
           rows="3"
-          class="bg-gray-50 border border-gray-300 text-primary-brown text-sm rounded-lg focus:ring-primary-brown focus:border-primary-brown block w-full p-2.5"
+          class="bg-gray-50 border border-gray-300 text-dark-green text-sm rounded-lg focus:ring-primary-brown focus:border-primary-brown block w-full p-2.5"
           placeholder="Penjelasan singkat mengenai kebutuhan Anda..."
           required
         />
@@ -129,9 +129,9 @@ const handleSubmit = async () => {
 
       <button
         type="submit"
-        class="text-white bg-primary-yellow hover:bg-primary-brown focus:ring-4 focus:outline-none focus:ring-primary-brown font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
+        class="text-white bg-secondary-green hover:bg-primary-green focus:ring-4 focus:outline-none focus:ring-primary-brown font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
       >
-        Submit
+        {{ $t("contactForm.submit") }}
       </button>
     </form>
   </div>

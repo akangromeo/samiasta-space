@@ -32,7 +32,7 @@ onMounted(() => {
       >
         <a
           href="#"
-          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-primary-white rounded-lg bg-primary-green hover:bg-dark-green focus:ring-4 focus:ring-green-300 :focus:ring-blue-900"
+          class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-primary-white rounded-lg bg-dark-green hover:bg-primary-green focus:ring-4 focus:ring-green-300 :focus:ring-blue-900"
         >
           {{ $t("jumbotron.ourWorks") }}
         </a>

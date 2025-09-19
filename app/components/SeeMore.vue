@@ -9,7 +9,7 @@ defineProps({
   <div v-motion-slide-visible-right>
     <NuxtLink :to="link">
       <div class="flex items-center mt-4 cursor-pointer">
-        <p class="mr-2 text-primary-brown">{{ linkText }}</p>
+        <p class="mr-2 text-dark-green">{{ linkText }}</p>
         <svg
           class="w-6 h-6 text-primary-brown"
           aria-hidden="true"
